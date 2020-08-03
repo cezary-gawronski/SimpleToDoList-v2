@@ -1,8 +1,6 @@
-# SimpleToDoList
+# SimpleToDoList v2
 
 ![Project](img/toDoListCover.jpg)
-
-## [LIVE](https://cezary-gawronski.github.io/SimpleToDoList/)
 
 ## Used:
 

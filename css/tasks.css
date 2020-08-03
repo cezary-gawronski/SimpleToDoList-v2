@@ -32,11 +32,23 @@
   background-color: transparent;
   background-size: cover;
   transition: 0.1s ease-out transform;
+  transition: 0.1s ease-out filter;
   border: none;
   color: white;
   width: 30px;
   height: 30px;
   padding: 0;
+}
+
+.tasks__button:hover,
+.tasks__button:focus {
+  transform: scale(1.1);
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));
+}
+
+.tasks__button:active {
+  transform: scale(0.9);
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.4));
 }
 
 @media (max-width: 767px) {
@@ -46,31 +58,9 @@
 }
 
 .tasks__button--toggleDone {
-  /* background-color: hsl(120, 61%, 34%); */
   background-image: url("../img/green.png");
 }
 
-.tasks__button--toggleDone:hover {
-  /* background-color: hsl(120, 61%, 39%); */
-  transform: scale(1.1);
-}
-
-.tasks__button--toggleDone:active {
-  /* background-color: hsl(120, 61%, 44%); */
-  transform: scale(0.9);
-}
-
 .tasks__button--remove {
-  /* background-color: hsl(348, 83%, 47%); */
   background-image: url("../img/no-entry_26d4.png");
-}
-
-.tasks__button--remove:hover {
-  /* background-color: hsl(348, 83%, 57%); */
-  transform: scale(1.1);
-}
-
-.tasks__button--remove:active {
-  /* background-color: hsl(348, 83%, 57%); */
-  transform: scale(0.9);
 }
