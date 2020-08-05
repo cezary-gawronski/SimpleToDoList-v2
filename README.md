@@ -1,6 +1,5 @@
 # SimpleToDoList v2
-
-![Project](img/toDoListCover.jpg)
+[Demo](https://cezary-gawronski.github.io/SimpleToDoList-v2/)
 
 ## Used:
 
