@@ -9,8 +9,7 @@
   border: none;
   margin: 0 0 0 20px;
   border-bottom: 1px solid transparent;
-  transition: 0.1s ease-out transform;
-  transition: 0.1s ease-out filter;
+  transition: 0.2s ease-out color;
 }
 
 @media (max-width: 767px) {
@@ -23,13 +22,10 @@
 .buttons__button:hover,
 .buttons__button:focus {
   color: hsl(180, 100%, 35%);
-  transform: scale(1.1);
-  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.4));
 }
 
 .buttons__button:active {
-  transform: scale(0.9);
-  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.4));
+  color: hsl(180, 100%, 39%);
 }
 
 .buttons__button:disabled {
