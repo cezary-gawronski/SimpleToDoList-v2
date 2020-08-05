@@ -12,6 +12,9 @@
   padding: 10px;
   border-bottom: 1px solid #ddd;
 }
+.tasks__item--hiden {
+  display: none;
+}
 
 .tasks__contentContainer {
   overflow: hidden;
